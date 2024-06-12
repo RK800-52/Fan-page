@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto De Restauración </title>
+    <link rel="shortcut icon" href="Belovedhome.gif" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <section>        
+            <h1>Proyecto De Restauración De Welcome Home</h1>
+        </section>
+        <img src="Colorbar (1).png" alt="">
+    </header>
+    <nav>
+        <ul>
+            <img src="BorderHeads.gif" alt="" class="heads">
+            <li><a href="#noticias">Noticias</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#avisos">Avisos</a></li>
+            <img src="BorderHeads.gif" alt="" class="heads">
+        </ul>
+    </nav>
+    <main>
+
+        <section id="noticias">
+            <h2>Noticias</h2>
+            <div class="articulo" onclick="mostrarArticulo(this, 'modal1')">
+                <h3>Beagle Primaveral</h3>
+                <p>¡La primavera está aquí y parece que el Beagle Primaveral acaba de llegar a la ciudad! ¿Pero podrá
+                    preparar a Wally para la temporada con la ayuda de Makeship?</p>
+                <img src="plush.jpg" alt="">
+            </div>
+            <div class="articulo" onclick="mostrarArticulo(this, 'modal2')">
+                <h3>Amigos premiados de Crispy Sweets</h3>
+                <p>¿Necesitas la compañía de dos pequeñas y deliciosas porciones? ¡Afortunadamente, no necesitas poner
+                    tus guantes en una caja de Crispy Sweets Escarchados para obtener el nuevo juego de pines esmaltados
+                    ¡Amigos premiados oficiales de Makeship! ¡Amplía tu ya elegante guardarropa usando a tus vecinos
+                    favoritos en tus solapas! ¡Guau!</p>
+                <img src="pins (2).jpg" alt="">
+            </div>
+
+        </section>
+        <section id="eventos">
+            <h2>Eventos</h2>
+            <div class="articulo" onclick="mostrarArticulo(this, 'modal3')">
+                <h3>Fiesta de inauguración de la casa</h3>
+                <p>¿Cómo se celebra el estreno de una casa? Con la ayuda de su mejor amigo Barnaby B. Beagle, nuestro
+                    Wally Darling está tratando de descubrirlo antes de la gran fiesta de inauguración.</p>
+                <img src="h.png" alt="">
+                <audio controls>
+                    <source src="Wally-Toyland.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="articulo" onclick="mostrarArticulo(this, 'modal4')">
+                <h3>Alboroto de vacaciones de Howdy</h3>
+                <p>Conozca a algunos miembros entrañables y eclécticos de la extensa familia Pillar con este maravilloso
+                    y extravagante sencillo de inauguración del hogar.</p>
+                <img src="Howdy'sHolidayHullabalooCover (2).png" alt="">
+                <audio controls>
+                    <source src="HowdysHolidayHullabaloo.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+
+        </section>
+        <section id="avisos">
+            <h2>Avisos</h2>
+            <div class="articulo" onclick="mostrarArticulo(this, 'modal5')">
+                <h3>Error.
+                </h3>
+                <p>Pido disculpas por la fecha de la publicación de noticias más reciente. Supuse que todavía era
+                    diciembre. No estoy seguro de cómo pudo haber sucedido esto. La persona que publicó esto no debe
+                    haber prestado la debida atención. ¡No le hagas caso, que tengas un día maravilloso! ¡Feliz
+                    primavera! ¡Casi tan bueno como la Fiesta de inauguración de la casa!</p>
+                <img src="julie (2).jpg" alt="Imagen centrada">
+
+            </div>
+            <div class="articulo" onclick="mostrarArticulo(this, 'modal6')">
+                <h3>¡Actualizaciones del sitio web!
+                </h3>
+                <p>¡Feliz inauguración!
+                    ¡Leíste bien! La temporada de invierno está a la vuelta de la esquina, querido vecino, y aquellos de
+                    nosotros en el equipo del Proyecto de Restauración de Welcome Home queremos desearle una ¡Feliz
+                    Navidad!
+
+                    Podrías pensar que este lugar también se ve un poco diferente. ¡No te preocupes! ¡Hemos decidido
+                    limpiar nuestra hermosa casa y deshacernos de todos esos bugs desagradables, para que puedas
+                    disfrutar en paz de nuestros hallazgos de Welcome Home! ¡Finalmente! ¡También nos complace
+                    anunciar que hemos descubierto una hermosa variedad de regalos justo a tiempo para las fiestas!
+                    ¡Esperamos que sientas el espíritu de la temporada a través de nuestro trabajo! ¡Ho Ho Ho!
+                </p>
+                <img src="Imagen1.png" alt="">
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <img src="triple+tulip.gif" alt="" class="tulip">
+            <img src="triple+tulip.gif" alt="" class="tulip">
+            <img src="triple+tulip.gif" alt="" class="tulip">
+            <img src="triple+tulip.gif" alt="" class="tulip">
+            <img src="triple+tulip.gif" alt="" class="tulip">
+            <img src="triple+tulip.gif" alt="" class="tulip">
+            <img src="triple+tulip.gif" alt="" class="tulip">
+            <img src="triple+tulip.gif" alt="" class="tulip">
+            <img src="triple+tulip.gif" alt="" class="tulip">
+            <img src="LargeBorder_file.png" alt="" class="borde">
+        </section>
+
+
+        <div class="modal" id="modal1">
+            <div class="modal-content">
+                <span class="close-button" onclick="cerrarModal('modal1')">×</span>
+                <h3 class="modal-titulo"></h3>
+                <p class="modal-contenido"></p>
+                <img class="modal-imagen" alt="">
+            </div>
+        </div>
+
+        <div class="modal" id="modal2">
+            <div class="modal-content">
+                <span class="close-button" onclick="cerrarModal('modal2')">×</span>
+                <h3 class="modal-titulo"></h3>
+                <p class="modal-contenido"></p>
+                <img class="modal-imagen" alt="">
+            </div>
+        </div>
+
+        <div class="modal" id="modal3">
+            <div class="modal-content">
+                <span class="close-button" onclick="cerrarModal('modal3')">×</span>
+                <h3 class="modal-titulo"></h3>
+                <p class="modal-contenido"></p>
+                <img class="modal-imagen" alt="">
+                <audio class="modal-audio" controls>
+                    <source class="modal-audio-source" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+
+        <div class="modal" id="modal4">
+            <div class="modal-content">
+                <span class="close-button" onclick="cerrarModal('modal4')">×</span>
+                <h3 class="modal-titulo"></h3>
+                <p class="modal-contenido"></p>
+                <img class="modal-imagen" alt="">
+                <audio class="modal-audio" controls>
+                    <source class="modal-audio-source" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+        <div class="modal" id="modal5">
+            <div class="modal-content">
+                <span class="close-button" onclick="cerrarModal('modal5')">×</span>
+                <h3 class="modal-titulo"></h3>
+                <p class="modal-contenido"></p>
+                <img class="modal-imagen" alt="">
+            </div>
+        </div>
+
+        <div class="modal" id="modal6">
+            <div class="modal-content">
+                <span class="close-button" onclick="cerrarModal('modal6')">×</span>
+                <h3 class="modal-titulo"></h3>
+                <p class="modal-contenido"></p>
+                <img class="modal-imagen" alt="">
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>

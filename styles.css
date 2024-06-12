@@ -1,0 +1,311 @@
+body {
+    font-family: Nice Chalk;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(descarga.jpg);
+    margin-left: 185px;
+    margin-right: 185px;
+    text-align: center;
+
+}
+
+
+@font-face {
+    font-family: Nice Chalk;
+    src: url("Nice\ Chalk\ Demo.ttf");
+}
+
+@font-face {
+    font-family: Welcome;
+    src: url("Welcome\ Home.otf");
+}
+
+@font-face {
+    font-family: Cheltenham;
+    src: url("CheltenhamBT-Roman.otf");
+}
+
+header {
+    background-color: #ffffff;
+    color: #432997;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: Nice Chalk;
+    font-size: 45px;
+    ;
+
+}
+
+h2 {
+    font-size: 160%;
+}
+
+h3 {
+    font-size: 140%;
+}
+
+p {
+    font-family: Cheltenham;
+    font-size: 110%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #170870;
+    font-size: 200%;
+    text-decoration: none;
+
+}
+
+nav>ul li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.heads {
+    width: 300px;
+margin-bottom: 2pxv;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+}
+
+img {
+    width: 50%;
+}
+
+
+section {
+    margin-bottom: 0px;
+}
+
+.articulo {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.articulo h3 {
+    margin: 0 0 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+footer {
+    background: #ffffff;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+
+.tulip {
+    width: 100px;
+}
+
+
+.borde {
+    width: 100%;
+    margin-bottom: 0%;
+
+}
+
+
+.articulo img {
+    display: block;
+    margin: 0 auto;
+}
+
+.articulo audio {
+    display: block;
+    margin: 20px auto 0;
+}
+
+#modal1 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    background-image: url(descarga.jpg);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+#modal1 .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#modal2 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    background-image: url(descarga.jpg);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+#modal2 .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#modal3 audio {
+    display: block;
+    margin: 20px auto 0;
+}
+#modal3 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    background-image: url(descarga.jpg);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+#modal3 .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#modal4 audio {
+    display: block;
+    margin: 20px auto 0;
+}
+
+#modal4 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    background-image: url(descarga.jpg);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+#modal4 .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#modal5 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    background-image: url(descarga.jpg);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+#modal5 .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#modal6 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    background-image: url(descarga.jpg);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+#modal6 .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+header img{
+    width: 979px;
+
+}
+.Colorbar{
+    width: 979px;
+margin-top: 20px;
+}
